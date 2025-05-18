@@ -51,7 +51,18 @@
         "save_game_order": "Préservation de l'ordre du jeu",
         "unsaved_changes": "Changements non protégés",
         "hotkeys_saved": "La clé thermique a été mise à jour",
-        "game_order_saved": "L'ordre du jeu a été mis à jour"
+        "game_order_saved": "L'ordre du jeu a été mis à jour",
+        "device_settings": "Gestion du matériel",
+        "current_device": "Matériel actuel",
+        "other_devices": "Matériel divers",
+        "device_name": "Nom du matériel",
+        "device_id": "MATÉRIEL",
+        "actions": "Opérations",
+        "import_paths": "Introduction",
+        "import_paths_title": "Introduction",
+        "import_paths_confirm": "Est-il déterminé que l'équipement doit être utilisé pour tous les chemins de jeu? Cela couvrira les chemins correspondants sur l'équipement actuel。",
+        "import_paths_success": "Accès routier réussi",
+        "device_updated": "Mise à jour des informations sur le matériel"
     },
     "home": {
         "hello_world": "Vos Excellences",
@@ -118,7 +129,18 @@
         "batch_delete_prompt": "notez que l'opération supprimerait la voie rapide de toutes les sélections et identifierait pour les entrées d'entrée",
         "recover_failed": "Défauts de récupération",
         "size": "Volume de la documentation",
-        "size_not_available": "Non enregistré"
+        "size_not_available": "Non enregistré",
+        "save_paths_updated": "Success stories",
+        "empty_paths_title": "Essai des voies archivées vides",
+        "select_device_placeholder": "Sélection du matériel",
+        "empty_paths_prompt": "L'itinéraire archivé actuel de l'équipement est vide, mais il y a un routage archivé d'autres équipements. Voulez-vous reproduire le chemin d'archive d'autres équipements",
+        "copy_from_device": "Reproduction de voies archivées",
+        "keep_empty": "Entretien",
+        "select_device_title": "Sélection du matériel",
+        "select_device_prompt": "Veuillez choisir l'équipement qui sera reproduit à des fins d'archivage",
+        "available_devices": "Matériel disponible",
+        "enter_device_id": "MATÉRIEL D &APOS; ENTRÉE",
+        "paths_copied_success": "Success in archived road replication"
     },
     "addgame": {
         "search_local": "Identification automatique des jeux locaux",
@@ -140,7 +162,9 @@
         "path": "Gestion des archives",
         "warning_for_save_file": "Je ne soutiendrai pas l'ajout du même document, dossier, pour le moment, mais je ne l'utiliserai pas, et, si nécessaire, fournirai des commentaires à moi, et je vais envisager de le produire",
         "invalid_name_error": "Les noms de jeux invalides, s'il vous plaît ne pas inclure des mots spéciaux qui ne créent pas de documents",
-        "duplicated_name_error": "Noms de jeu répétitifs (pas de distinction entre taille et taille)"
+        "duplicated_name_error": "Noms de jeu répétitifs (pas de distinction entre taille et taille)",
+        "device_info": "Information sur le matériel",
+        "path_variable_hint": "vous pouvez utiliser les variables routières (p. ex., orphelinat)"
     },
     "app": {
         "early_access_warning": "Il s'agit d'une version d'essai précoce qui ne garantit pas la stabilité et nécessite une utilisation prudente"
@@ -183,12 +207,17 @@
         "about": "En ce qui concerne la question du Sahara occidental"
     },
     "save_location_drawer": {
-        "drawer_title": "Liste des documents de gestion",
+        "drawer_title": "Modification de la configuration",
         "type": "Catégorie",
         "prompt": "Route (réplicatée par des coups simples)",
         "open_file_header": "Abolition",
         "open": "Ouverture",
-        "delete_before_apply": "Demande avant suppression"
+        "delete_before_apply": "Demande avant suppression",
+        "copy": "Reproduction",
+        "select_device": "Sélection du matériel",
+        "current_device": "Matériel actuel",
+        "launch_path": "Lancement de la route",
+        "save_locations": "Archivage des voies"
     },
     "sync_settings": {
         "title": "Simultaneization",
@@ -259,7 +288,14 @@
         "set_config_failed": "Absence de configuration",
         "reset_settings_failed": "Reprise des défaillances",
         "change_description_failed": "Absence de description éditoriale",
-        "open_log_folder_failed": "Pas d'ouverture du journal"
+        "open_log_folder_failed": "Pas d'ouverture du journal",
+        "get_device_info_failed": "Absence d ' information sur le matériel",
+        "resolve_path_failed": "Failure du chemin de dialyse",
+        "game_not_found": "Aucun jeu de contrepartie ne peut être trouvé",
+        "save_config_failed": "Jouer pour mettre à jour les échecs",
+        "update_device_failed": "Défaut de mettre à jour les informations relatives au matériel",
+        "get_devices_failed": "Failure of the list of acquisitions",
+        "import_paths_failed": "Absence du chemin d ' introduction"
     },
     "backend": {
         "config": {
@@ -314,5 +350,43 @@
     },
     "setting": {
         "current_quick_action_game": "Jeux rapides en cours"
+    },
+    "path_variable": {
+        "insert_variable": "Insérer les variables routières",
+        "win_app_data": "AppData",
+        "win_public": "Information",
+        "win_dir": "Table des matières",
+        "xdg_data": "XDG TABLE DES MATIÈRES",
+        "xdg_config": "XDG INVENTORY",
+        "test_resolution": "Essai de la dialyse routière",
+        "test_path_placeholder": "Accès aux variables",
+        "resolve": "Analyse",
+        "tooltip": "Les variables de routage peuvent vous aider à créer un chemin trans-équipé et compatible",
+        "common": "Variables communes",
+        "windows": "Variables Windows",
+        "linux": "Variables MINURCAT",
+        "home": "Head of household catalogue",
+        "os_user_name": "Nom d'utilisateur du système d'exploitation",
+        "win_local_app_data": "Apps locales Table des matières",
+        "win_local_app_data_low": "Apps locales Table des matières",
+        "win_documents": "Catalogue des documents",
+        "win_program_data": "Inventaire des données de procédure",
+        "test": "Essai",
+        "resolved_to": "résultats de l'analyse:"
+    },
+    "common": {
+        "save_failed": "Failure to preserve",
+        "save": "Préservation",
+        "cancel": "Élimination des modifications",
+        "save_success": "Préservation du succès",
+        "confirm": "Confirmation"
+    },
+    "device_setup": {
+        "title": "Matériel",
+        "device_name": "Nom du matériel",
+        "device_name_placeholder": "Nom du matériel d ' entrée",
+        "import_from": "Accès aux autres équipements",
+        "select_device": "Sélection du matériel",
+        "import_success": "Accès routier réussi"
     }
 }

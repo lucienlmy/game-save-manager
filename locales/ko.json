@@ -51,7 +51,18 @@
         "save_game_order": "게임의 순서의 예약",
         "unsaved_changes": "위험 경고",
         "hotkeys_saved": "열 keying는 개정되었습니다",
-        "game_order_saved": "게임의 순서가 업데이트되었습니다"
+        "game_order_saved": "게임의 순서가 업데이트되었습니다",
+        "device_settings": "장비의 관리",
+        "current_device": "현재 장비",
+        "other_devices": "기타 장비",
+        "device_name": "장비의 이름",
+        "device_id": "장비ID",
+        "actions": "영업 시간",
+        "import_paths": "제품정보",
+        "import_paths_title": "제품정보",
+        "import_paths_confirm": "장비가 모든 놀이 경로에 사용할 수 있다는 것을 결정합니까? 현재 장비에 해당 경로를 다룹니다。",
+        "import_paths_success": "성공적인 도로 접근",
+        "device_updated": "장비 정보 업데이트"
     },
     "home": {
         "hello_world": "당신의 Excellencies",
@@ -118,7 +129,18 @@
         "batch_delete_prompt": "작업이 모든 선택에서 빠르 트랙을 삭제하고 입력 intoyes에 대한 식별",
         "recover_failed": "복구 실패",
         "size": "문서의 볼륨",
-        "size_not_available": "기록 없음"
+        "size_not_available": "기록 없음",
+        "save_paths_updated": "성공 사례",
+        "empty_paths_title": "빈 아카이브 경로의 테스트",
+        "copy_from_device": "아카이브 경로의 재생",
+        "keep_empty": "- 연혁",
+        "select_device_title": "장비 선택",
+        "select_device_prompt": "장비가 보관 목적으로 복제됩니다",
+        "empty_paths_prompt": "장비의 현재 아카이브 경로는 비어 있지만 다른 장비의 아카이브가 있습니다. 다른 장비의 아카이브 경로를 복제하려면",
+        "available_devices": "사용 가능한 장비",
+        "enter_device_id": "입력 장비",
+        "select_device_placeholder": "장비 선택",
+        "paths_copied_success": "아카이브 도로 복제에 성공"
     },
     "addgame": {
         "duplicated_filename_error": "이 소프트웨어는 동일한 문서 / 문서 폴더의 advent를 지원하지 않습니다",
@@ -140,7 +162,9 @@
         "duplicated_name_error": "반복적인 놀이 이름 (크기와 크기 사이 구별 없음)",
         "search_local": "현지 게임의 자동 식별",
         "save_current_profile": "현재 편집 구성 유지",
-        "reset_current_profile": "현재 구성의 재구성"
+        "reset_current_profile": "현재 구성의 재구성",
+        "device_info": "장비 정보",
+        "path_variable_hint": "도로 변수를 사용할 수 있습니다 (예 : <home>) 교차로를 만들 수 있습니다"
     },
     "app": {
         "early_access_warning": "이것은 안정성을 보장하지 않는 이른 시험 버전이고 주의깊게 사용 요구합니다"
@@ -232,7 +256,14 @@
         "set_config_failed": "구성 실패",
         "reset_settings_failed": "실패의 재개",
         "change_description_failed": "편집 설명의 실패",
-        "open_log_folder_failed": "로그북의 열기"
+        "open_log_folder_failed": "로그북의 열기",
+        "resolve_path_failed": "dialysis 경로의 실패",
+        "get_device_info_failed": "장비에 대한 정보를 얻기 위해 실패",
+        "game_not_found": "카운터플레이는 찾을 수 없습니다",
+        "save_config_failed": "업데이트 실패",
+        "update_device_failed": "장비 정보 업데이트 실패",
+        "get_devices_failed": "인수 목록의 실패",
+        "import_paths_failed": "소개 경로의 실패"
     },
     "misc": {
         "error": "사이트맵",
@@ -254,12 +285,17 @@
         "about": "서양 사하라의 질문에 관해서"
     },
     "save_location_drawer": {
-        "drawer_title": "관리 문서 목록",
+        "drawer_title": "구성의 수정",
         "type": "(주)",
         "prompt": "노선 (단 하나 타격에 의해 복제)",
         "open_file_header": "제품정보",
         "open": "(주)",
-        "delete_before_apply": "삭제하기 전에 신청"
+        "delete_before_apply": "삭제하기 전에 신청",
+        "select_device": "장비 선택",
+        "current_device": "현재 장비",
+        "copy": "관련 상품",
+        "launch_path": "도로 시작",
+        "save_locations": "오시는 길"
     },
     "backend": {
         "config": {
@@ -314,5 +350,43 @@
     },
     "setting": {
         "current_quick_action_game": "현재 빠른 트랙 게임"
+    },
+    "path_variable": {
+        "win_dir": "제품정보",
+        "insert_variable": "도로 변수 삽입",
+        "tooltip": "routing 변수는 cross-equipped, compatible path를 만들 수 있습니다",
+        "common": "일반적인 변수",
+        "windows": "Windows 변수",
+        "linux": "MINURCAT 변수",
+        "win_local_app_data_low": "지역 앱 데이터 낮은 내용",
+        "win_documents": "문서 카탈로그",
+        "win_public": "본문 바로가기",
+        "win_program_data": "procedural 자료의 발명",
+        "home": "가구 카탈로그",
+        "os_user_name": "운영 체제의 사용자 이름",
+        "win_app_data": "앱데이터",
+        "win_local_app_data": "지역 앱 데이터 내용",
+        "xdg_data": "사이트맵 데이터 내용",
+        "xdg_config": "사이트맵 회사 소개",
+        "test_resolution": "도로 dialysis의 시험",
+        "test_path_placeholder": "변수에 접근",
+        "resolve": "분석",
+        "test": "제품정보",
+        "resolved_to": "분석 결과:"
+    },
+    "common": {
+        "save": "예약",
+        "save_success": "성공의 보람",
+        "save_failed": "보존의 실패",
+        "cancel": "수정의 제거",
+        "confirm": "인증현황"
+    },
+    "device_setup": {
+        "title": "제품정보",
+        "device_name": "장비의 이름",
+        "device_name_placeholder": "입장 장비의 이름",
+        "import_from": "다른 장비에 접근",
+        "select_device": "장비 선택",
+        "import_success": "성공적인 도로 접근"
     }
 }

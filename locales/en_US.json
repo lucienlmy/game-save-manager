@@ -162,7 +162,9 @@
         "path": "Path",
         "warning_for_save_file": "Adding files or folders with the same name is currently not supported. Please refrain from doing so. If needed, please provide feedback, and I will consider implementing it",
         "invalid_name_error": "Invalid game name. Please avoid including special characters that cannot be used to create files",
-        "duplicated_name_error": "Game name duplicated (The game name is case-insensitive)"
+        "duplicated_name_error": "Game name duplicated (The game name is case-insensitive)",
+        "path_variable_hint": "you can use the road variables (e.g. <home>) to create a cross-equipped pathway",
+        "device_info": "Equipment information"
     },
     "app": {
         "early_access_warning": "This is an early test version. Stability cannot be guaranteed. Please use with caution"
@@ -212,7 +214,10 @@
         "open": "Open",
         "delete_before_apply": "Delete before overwrite",
         "launch_path": "Game launch path",
-        "save_locations": "Save file locations"
+        "save_locations": "Save file locations",
+        "current_device": "Current equipment",
+        "copy": "Reproduction",
+        "select_device": "Selection of equipment"
     },
     "sync_settings": {
         "title": "Sync settings",
@@ -288,7 +293,9 @@
         "change_description_failed": "Failed to edit description",
         "open_log_folder_failed": "Cannot open log folder",
         "game_not_found": "The corresponding game cannot be found",
-        "save_config_failed": "Game settings failed to update"
+        "save_config_failed": "Game settings failed to update",
+        "get_device_info_failed": "Failure to obtain information on equipment",
+        "resolve_path_failed": "Failure of the dialysis path"
     },
     "backend": {
         "config": {
@@ -358,5 +365,28 @@
         "import_from": "Import paths from other devices",
         "select_device": "Select Device",
         "import_success": "Paths imported successfully"
+    },
+    "path_variable": {
+        "test_resolution": "Testing of road dialysis",
+        "test_path_placeholder": "Access to variables",
+        "insert_variable": "Inserting the road variables",
+        "tooltip": "The routing variables can help you to create a cross-equipped, compatible path",
+        "common": "Common variables",
+        "windows": "Windows variables",
+        "linux": "MINURCAT variables",
+        "home": "Head of household catalogue",
+        "os_user_name": "User name of the operating system",
+        "win_app_data": "AppData",
+        "win_local_app_data": "Local AppData Contents",
+        "win_local_app_data_low": "Local AppData Low Contents",
+        "win_documents": "Document catalogue",
+        "win_public": "Public information",
+        "win_dir": "Contents",
+        "resolved_to": "results of the analysis:",
+        "win_program_data": "Inventory of procedural data",
+        "xdg_data": "XDG DATA CONTENTS",
+        "xdg_config": "XDG INVENTORY",
+        "resolve": "Analysis",
+        "test": "Test"
     }
 }
